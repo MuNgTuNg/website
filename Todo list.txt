@@ -39,3 +39,4 @@ Andrius
  - Database?
 
 Shay
+- Remove node_local_install

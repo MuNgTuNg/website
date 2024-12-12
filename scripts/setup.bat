@@ -1,1 +1,1 @@
-set PATH=H:\Work\website\node_local_install;%PATH%
+set PATH=%CD%/../node_local_install;%PATH%
