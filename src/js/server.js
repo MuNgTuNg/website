@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, htmlDir + 'index.html'));
 })
 
+app.get("/css/index.css", (req, res) => {
+  res.sendFile(path.join(__dirname, "../css/index.css"));
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 })
