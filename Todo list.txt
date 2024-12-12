@@ -1,0 +1,41 @@
+
+-------- Front end ----------
+TECH: 
+    - HTML
+    - CSS
+    - JS
+*** CURRENT TASKS ***
+1:  - Index page - 
+2:     - UI -
+
+Jack
+ - Design (logo, general stuff)
+ - Color pallette
+
+
+ShaSha
+ - HTML 
+ - CSS 
+ - JS (React, Vue, Angular) <- any
+ - Optionally full stack
+
+ Tasks: 
+
+Edward
+
+
+---------- Backend ---------
+Tech: 
+ - NodeJs, ExpressJs 
+ - MySQL
+
+*** CURRENT TASKS *** 
+1:  - UI To Database - 
+2:  - Configure Database - 
+
+Oscar
+
+Andrius
+ - Database?
+
+Shay

@@ -1,0 +1,1 @@
+cd .. && cd src/js && node server.js && cd .. && cd scripts
