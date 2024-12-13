@@ -10,6 +10,7 @@ const port = 3000;
 
 const htmlDir = "../html/";
 
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, htmlDir + "index.html"));
 });
