@@ -1,4 +1,4 @@
-# How to start
-go to scripts directory in cmd and run "run_website.bat" 
-![alt text](docs/resources/image.png)
-
+#Scripts
+- in /scripts
+- run setup.bat in Command prompt and it will add node to your environment variables. 
+- Alternitavely in /node_local_install run nodevars.bat for the same thing.
