@@ -25,3 +25,10 @@ Prototype Design Index page using figma. - Jack, shashaka, edward
 
 
 
+11:11 - 11:22 30/01/25 
+
+# Tasks
+Create page structure - Andrius, Shay, Oscar
+Design Index page  - Edward
+Design About me page - JAck
+Design Health benefits page - ShaShaka
