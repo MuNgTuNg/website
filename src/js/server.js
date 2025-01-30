@@ -25,3 +25,20 @@ app.get("/js/index.js", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 }); //
+
+
+app.get("/admin", (req, res) => {
+  res.sendFile(path.join(__dirname, htmlDir + "admin.html"));
+});
+
+app.get("/gallery", (req, res) => {
+  res.sendFile(path.join(__dirname, htmlDir + "gallery.html"));
+});
+
+app.get("/healthbenefits", (req, res) => {
+  res.sendFile(path.join(__dirname, htmlDir + "health_benefits.html"));
+});
+
+app.get("/aboutme", (req, res) => {
+  res.sendFile(path.join(__dirname, htmlDir + "about_me.html"));
+});
