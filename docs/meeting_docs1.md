@@ -32,3 +32,9 @@ Create page structure - Andrius, Shay, Oscar
 Design Index page  - Edward
 Design About me page - JAck
 Design Health benefits page - ShaShaka
+
+
+# 3 9:24 - 10:20 06/02/2025
+Reassign index page - shay
+Andrius research stack
+shay look into react 
