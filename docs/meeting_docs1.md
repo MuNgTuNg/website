@@ -38,3 +38,8 @@ Design Health benefits page - ShaShaka
 Reassign index page - shay
 Andrius research stack
 shay look into react 
+
+# 4 9:05 - 10:30 06/03/25
+- Need front end team to find overall page structure
+- php for server
+- configuring git.
