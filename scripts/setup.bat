@@ -1,0 +1,1 @@
+set PATH=%CD%\..\node_local_install;%PATH%

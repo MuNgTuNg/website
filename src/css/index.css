@@ -1,0 +1,23 @@
+/*
+You can add the same style to multiple elements like this, by 
+giving them the same class name.
+*/
+.navBarEntry {
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  display: flex;
+  flex: 1;
+  width: 33%;
+  border: 1px solid black;
+  float: left;
+}
+
+.navBarEntry>h2 {
+  margin: auto;
+}
+
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
