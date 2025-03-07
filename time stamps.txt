@@ -1,6 +1,0 @@
-hosting: cPanel
-php my sql 
-andreas - my sql
-oscar shay - sending data to my sql
-login - change password
-mini blog
