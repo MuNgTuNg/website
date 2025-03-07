@@ -4,6 +4,8 @@ const port = 3000;
 
 const path = require('path');
 
+app.use(express.static('../static'))
+
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../static/html/index.html'));
