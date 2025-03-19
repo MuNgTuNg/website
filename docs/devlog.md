@@ -14,3 +14,4 @@
 
 19/03/25
 - shay and andrius configured hosting on an AWS EC2 instance
+- Shay fixed navpills, broke local navigation - (dont worry about it yet)
