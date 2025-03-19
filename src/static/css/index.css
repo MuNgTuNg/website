@@ -1,11 +1,35 @@
+
+@font-face {
+  font-family: lowenBanan;
+  src: url(../assets/fonts/Scrogglet.ttf);
+}
+
+
+
 body { 
 	background-color: #0596A0;
+
+}
+
+.active1 {
+	background-color: #EEBEFB;
+}
+
+
+.rounded-img {
+	border-radius: 1000px;
+	width: 100px;
+	padding: 5px;
+}
+
+.large {
+	font-size: 75px;
+	color: #ffffff;
+	font-family: lowenBanan;
 }
 
 .text-babon-purple {
 	color: #ffffff;
 }
 
-.active1 {
-	background-color: #EEBEFB;
-}
+
