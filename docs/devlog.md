@@ -1,6 +1,6 @@
 06/03/25
 - shay created design
-- oscar created index page using bootstrap
+- oscar created index, about me, gallery and health benefits page header using bootstrap
 
 07/03/25 
 - andrius set to do my SQL
@@ -8,4 +8,5 @@
 - mini blog 
 - login page with ability to change password
 - using PHP and my SQL
-- using adrius webserver if it works?
+- using adrius webserver?
+- 
