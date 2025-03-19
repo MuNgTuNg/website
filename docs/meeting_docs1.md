@@ -43,11 +43,8 @@ shay look into react
 - Need front end team to find overall page structure
 - php for server
 - configuring git.
-<<<<<<< HEAD
-- test branch protext
-=======
 -test branch protext
 
 # 5 9:05 19/03/25
 discussed using apache and if it will run on the college systems
->>>>>>> 3440c7de558824f3f5060a7a1768d004613a281d
+
