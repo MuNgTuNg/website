@@ -9,3 +9,6 @@
 - login page with ability to change password
 - using PHP and my SQL
 - using adrius webserver if it works?
+
+19/03/25
+- shay and andrius configured hosting on an AWS EC2 instance
