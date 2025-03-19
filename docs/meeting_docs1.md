@@ -44,3 +44,6 @@ shay look into react
 - php for server
 - configuring git.
 -test branch protext
+
+# 5 9:05 19/03/25
+discussed using apache and if it will run on the college systems
