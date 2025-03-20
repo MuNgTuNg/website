@@ -1,13 +1,14 @@
 const express = require('express');
 const path = require('path');
 const database = require('./database'); //use this to call the database.js functions
-const multer = require('multer');
-
-const upload = multer(); 
 
 
 const app = express();
 app.use(express.static(path.join(__dirname, '../static')))
+
+//middleware for form data
+const multer = require('multer');
+const upload = multer(); 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(upload.none()); 
@@ -33,7 +34,8 @@ app.post('/api/comments', (req, res) => {
     */ 
 
     const data = Object.assign({}, req.body);
-    console.log(data);
+    console.log(data.title);
+    console.log(data.comment);
 
     //sanitize form data
 
@@ -42,6 +44,8 @@ app.post('/api/comments', (req, res) => {
 
     //return post as http response - JSON
     res.status(200).send();
+
+    //redirect to same page
 });
 
 
