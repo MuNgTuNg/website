@@ -30,10 +30,25 @@ body {
 	color: #ffffff;
 }
 
-.wide {
-	width: 45%;
+.carousel-inner-height{
+	height:300px;
+}
+
+.wide{
+	/*height: 300px;
+	width: 75%;*/
 	padding: 1vw;
 	border-radius: 4vw;
 }
 
+.wide img {
+	margin:auto auto;
+	/*height:50%;
+	width:50%;*/
+}
+
+.w-m {
+	width: 30%;
+	height: 30%;
+}
 
