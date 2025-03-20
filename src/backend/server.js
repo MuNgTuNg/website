@@ -18,9 +18,9 @@ for example:
 Would change to:
 	<a href="/health_benefits">Health Benefits</a>
 */
-app.get('/:page', (req, res) => {
-    res.sendFile(path.join(__dirname, '../static', req.params.page + '.html'));
-});
+// app.get('/:page', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../static', req.params.page + '.html'));
+// });
 
 
 //this will serve the index for any path not recognised.
