@@ -1,14 +1,50 @@
 const express = require('express');
 const path = require('path');
+const database = require('./database'); //use this to call the database.js functions
+
 
 const app = express();
-const port = 80;
 app.use(express.static(path.join(__dirname, '../static')))
+const port = 80;
 
 
 
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('database/posts.db');
+app.post('api/comment', (req, res) => {
+    //retrieve form data
+
+    //sanitize form data
+
+    //add post to database
+    database.addPostToDatabase();
+
+    //return post as http response - JSON
+});
+
+app.get('api/comments', (req,res) => {
+    //retrieve all posts and return as JSON
+    database.readPostsFromDatabase();
+});
+
+app.patch('api/comments', (req, res) => {
+    database.updatePostInDatabase();
+});
+
+app.delete('api/comment', (req, res) => {
+    database.deletePostFromDatabase();
+});
+
+
+
+//this will serve the index for any path not recognised.
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../static/index.html'));
+});
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+});
+
+
 
 
 /*this function allows pages to load without appending .html to the url, 
@@ -21,21 +57,3 @@ Would change to:
 // app.get('/:page', (req, res) => {
 //     res.sendFile(path.join(__dirname, '../static', req.params.page + '.html'));
 // });
-
-
-//this will serve the index for any path not recognised.
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../static/index.html'));
-})
-
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
-
-
-
-//powershell command to start sql server
-//Start-Service -Name mysql
-
-//command to connect to server
-//mysql -u root -p
