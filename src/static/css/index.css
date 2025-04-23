@@ -21,7 +21,7 @@ body {
 }
 
 .large {
-	font-size: 75px;
+	font-size: 10vw;
 	color: #ffffff;
 	font-family: lowenBanan;
 }
@@ -47,8 +47,4 @@ body {
 	width:50%;*/
 }
 
-.w-m {
-	width: 30%;
-	height: 30%;
-}
 
