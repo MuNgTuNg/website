@@ -9,9 +9,16 @@
 - login page with ability to change password
 - using PHP and my SQL
 - using adrius webserver?
-- 
+- oscar created gallery
 - using adrius webserver if it works?
 
 19/03/25
 - shay and andrius configured hosting on an AWS EC2 instance
 - Shay fixed navpills, broke local navigation - (dont worry about it yet)
+
+07/05/25
+- oscar added documentation (programming language choice)
+
+15/05/25
+- oscar fixed gallery carosel
+- oscar updated the index page
