@@ -4,6 +4,11 @@
   src: url(../assets/fonts/Scrogglet.ttf);
 }
 
+.fontstuff{
+	color: #d3d3d3;
+	font-size: 5vw;
+}
+	
 body { 
 	background-color: #0596A0;
 
@@ -47,4 +52,12 @@ body {
 	width:50%;*/
 }
 
+.booking{
+	font-size: 5vw;
+	color: #ffffff;
+	background-color: #EEBEFB;
+	padding: 1vw;
+	border-radius: 2vw;
+
+}
 

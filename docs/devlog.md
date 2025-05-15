@@ -9,7 +9,7 @@
 - login page with ability to change password
 - using PHP and my SQL
 - using adrius webserver?
-- 
+- oscar created gallery
 - using adrius webserver if it works?
 
 19/03/25
@@ -18,3 +18,7 @@
 
 07/05/25
 - oscar added documentation (programming language choice)
+
+15/05/25
+- oscar fixed gallery carosel
+- oscar updated the index page
